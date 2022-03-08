@@ -6,9 +6,10 @@ void gwiazdki ()
 {
     int znak;
     std::cout << "wpisz znak z klawiatury" << std::endl;
-    for (int i=0; i<10; i++)
+    std::cin >> znak;
+        for (int i=0; i<10; i++)
         
-        cin >> znak;
+    
         cout << znak << std::endl;
         
 }
